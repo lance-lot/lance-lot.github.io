@@ -11,12 +11,10 @@
     
         <meta name="description" content="Liang Yuanchang
 
-
-
  “Everything negative – pressure, challenges – is all an opportunity for me to rise.“  Kobe Bryant
 
 
-Education2020-2021MSc, Electri">
+Education2020-2021MSc, Electrica">
     
 
     <!--Author-->
@@ -84,9 +82,7 @@ Education2020-2021MSc, Electri">
                 <div class="row">
                     <!-- Post Main Content -->
                     <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <h1 id="Liang-Yuanchang"><a href="#Liang-Yuanchang" class="headerlink" title="Liang Yuanchang"></a>Liang Yuanchang</h1><img src="/.io//img_3961.jpg" alt="photo">
-
-<hr>
+                        <h1 id="Liang-Yuanchang"><a href="#Liang-Yuanchang" class="headerlink" title="Liang Yuanchang"></a>Liang Yuanchang</h1><hr>
 <blockquote>
 <p> “<em>Everything negative – pressure, challenges – is all an opportunity for me to rise.</em>“  <strong>Kobe Bryant</strong></p>
 </blockquote>
@@ -168,7 +164,7 @@ Education2020-2021MSc, Electri">
 </ul>
 <hr>
 <blockquote>
-<p><a href="mailto:&#101;&#x30;&#x35;&#x37;&#50;&#53;&#54;&#53;&#64;&#117;&#46;&#110;&#x75;&#115;&#46;&#x65;&#x64;&#x75;">&#101;&#x30;&#x35;&#x37;&#50;&#53;&#54;&#53;&#64;&#117;&#46;&#110;&#x75;&#115;&#46;&#x65;&#x64;&#x75;</a> • +65 8918 7583 •  <br>address - Singapore</p>
+<p><a href="mailto:&#101;&#48;&#x35;&#x37;&#50;&#x35;&#x36;&#x35;&#x40;&#x75;&#46;&#110;&#x75;&#x73;&#x2e;&#101;&#100;&#117;">&#101;&#48;&#x35;&#x37;&#50;&#x35;&#x36;&#x35;&#x40;&#x75;&#46;&#110;&#x75;&#x73;&#x2e;&#101;&#100;&#117;</a> • +65 8918 7583 •  <br>address - Singapore</p>
 </blockquote>
 
 
@@ -199,6 +195,32 @@ Education2020-2021MSc, Electri">
 </section>
 
 <!-- Image viewer-->
+
+    <!-- Custom picture view-->
+    <link href="/css/viewer.min.css" rel="stylesheet" />
+    <script
+      src="/js/viewer.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    
+    <script type="text/javascript">
+      // set image viewer
+      Viewer.setDefaults({
+        zoomRatio: [0.5],
+        navbar: false,
+        toolbar: false,
+        button: false,
+        title: [2, (image, imageData) => `${image.alt}`],
+        show: function() {
+          this.viewer.zoomTo(0.5);
+        }
+      });
+      var imageList = document.getElementsByTagName("img");
+      Array.prototype.forEach.call(imageList, element => {
+        var viewer = new Viewer(element);
+      });
+    </script>
 
     
 
